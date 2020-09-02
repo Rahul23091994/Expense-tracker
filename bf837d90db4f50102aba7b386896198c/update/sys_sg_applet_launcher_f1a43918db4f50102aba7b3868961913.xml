@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher">
+    <sys_sg_applet_launcher action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_offline>false</available_offline>
+        <header_button/>
+        <header_titles/>
+        <hide_empty_sections>true</hide_empty_sections>
+        <name>Expense Tracker</name>
+        <required_roles>admin</required_roles>
+        <search_config/>
+        <sys_class_name>sys_sg_applet_launcher</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-08-31 13:26:07</sys_created_on>
+        <sys_id>f1a43918db4f50102aba7b3868961913</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Expense Tracker</sys_name>
+        <sys_package display_value="Expense Tracker" source="x_263984_expense_t">bf837d90db4f50102aba7b386896198c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Expense Tracker">bf837d90db4f50102aba7b386896198c</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_f1a43918db4f50102aba7b3868961913</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-08-31 13:26:07</sys_updated_on>
+        <title>Expense Tracker</title>
+    </sys_sg_applet_launcher>
+</record_update>

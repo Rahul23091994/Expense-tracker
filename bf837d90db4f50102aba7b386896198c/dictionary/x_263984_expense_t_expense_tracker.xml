@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Expense tracker" max_length="40" name="x_263984_expense_t_expense_tracker" sizeclass="6" text_index="true" type="collection">
+        <element label="Amount" max_length="38" name="amount" type="currency"/>
+        <element choice="1" label="category" max_length="60" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Salary" sequence="0" value="Salary"/>
+                <element inactive_on_update="false" label="Shopping" sequence="1" value="Shopping"/>
+                <element inactive_on_update="false" label="Fuel" sequence="2" value="Fuel"/>
+                <element inactive_on_update="false" label="Kids" sequence="3" value="Kids"/>
+                <element inactive_on_update="false" label="clothes" sequence="4" value="clothes"/>
+                <element inactive_on_update="false" label="Eating Out" sequence="5" value="Eating Out"/>
+            </choice>
+        </element>
+        <element label="Expense date" max_length="40" name="expense_date" type="glide_date"/>
+        <element default="900" label="Limit cost" max_length="38" name="limit_cost" type="currency"/>
+        <element label="Remaining Expense" max_length="30" name="remaining_expense" type="integer"/>
+    </element>
+</database>
